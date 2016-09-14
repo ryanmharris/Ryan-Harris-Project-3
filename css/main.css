@@ -1,0 +1,205 @@
+/*---Basic layout--------------*/
+
+* {
+  font-family: 'Merriweather', serif;
+  color: #0f1c29;
+}
+
+header {
+  text-align: center;
+}
+
+h1 {
+  color: white;
+  text-transform: uppercase;
+  background-color: #1a3651;
+  margin-top: 0;
+  padding: 20px 5px;
+  font-size: 1.75em;
+}
+
+header h2 {
+  color: #1a3651;
+}
+
+header p {
+  color: #969696;
+  border-bottom: 5px solid #1a3651;
+  padding-bottom: 2em;
+  width: 95%;
+  margin: 3px auto;
+  
+}
+
+.all {
+  background-color: #f6f3f3;
+  border-radius: 10px;
+}
+
+.main-info {
+  margin: auto;
+  width: 95%;
+  border-top: 3px solid #1a3651;
+  padding-top: 2em;
+}
+
+legend {
+  font-size: 1.5em;
+  margin-left: .5em;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+label.news {
+  font-weight: 300;
+  display: inline;
+}
+
+fieldset {
+  margin-bottom: 30px;
+  border: none;
+}
+
+.help {
+  display: none;
+  font-size: 90%;
+}
+
+input:focus + .help {
+  display: inline-block;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="password"],
+select,
+textarea {
+	font-size: 1em;
+  color: #828282;
+  font-weight: 300; 
+  width: 95%;
+  background-color: #ededed;
+  height: auto;
+  margin-bottom: 1.2em;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.08) inset;
+  border-radius: 10px;
+}
+
+input,
+textarea,
+select {
+  outline: 0;
+	border: none;
+	padding: 15px;
+	border-radius: .3em;
+	border: 3px solid #ededed;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  border-color: #1a3651;
+}
+
+#zip {
+  width: 20%;
+}
+
+.check,
+.radio {
+  margin-bottom: 20px;
+}
+
+::-webkit-input-placeholder {
+  text-align: right;
+  margin-right: .2em;
+  font-style: italic;
+  font-size: .85em;
+}
+
+input[type="name"],
+input[type="email"] {
+  text-align: left;
+  font-style: normal;
+}
+
+.bottom-info {
+  border-top: 3px solid #1a3651;
+}
+
+#newsletter {
+  padding-top: 2em;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin: 0 4px 8px 0;
+}
+
+input[type="checkbox"]:focus {
+  border-color: #1a3651;
+}
+
+button {
+  padding: 19px 39px 18px 39px;
+  color: #FFF;
+  background-color: #52bab3;
+  font-size: 18px;
+  text-align: center;
+  font-style: normal;
+  border-radius: 5px;
+  width: 100%;
+  border: 1px solid #52bab3;
+  border-width: 1px 1px 3px;
+  box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+  margin-bottom: 10px;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  color: #969696;
+  margin-bottom: 20px;
+}
+
+footer span {
+  font-style: italic;
+  color: #969696
+}
+
+@media (min-width: 760px) {
+  .all {
+    width: 75%;
+    margin: auto;
+  }
+
+  header p {
+    width: 71.5%;
+    margin: 5px auto;
+  }
+}
+
+@media (min-width: 1224px) {
+  .all {
+    width: 60%;
+    margin: auto;
+  }
+  
+  header p {
+    width: 57%;
+    margin: 5px auto;
+  }
+}
+
+
+
+
+
+
+
